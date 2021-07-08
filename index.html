@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="main">
+    <div class="registation">
+      <h1>Rgistation form</h1>
+      <form action="">
+        <p><label for="fname">First name:</label><br><input type="text" name="info" id="name" placeholder="Enter first name"></p>
+        <p><label for="lname">Last name:</label><br><input type="text" name="info" id="lname" placeholder="Enter last name"></p>
+        <p><label for="age">Your age:</label><br><input type="number" name="info" id="age" placeholder="Enter your age"></p>
+        <p><label for="email">Your email:</label><br><input type="text" name="info" id="email"placeholder="Enter your email"></p>
+        <div class="lan-gen">
+          <p>
+          Gender:
+          <br>
+          <span><label for="male"><input type="radio" name="gender" id="male">Male</label></span>
+          <span><label for="female"><input type="radio" name="gender" id="female">Female</label></span>
+          <span><label for="none"><input type="radio" name="gender" id="none">Others</label></span>
+         </p>
+         <p>
+          Languages you know
+          <br>
+          <span><label for="english"><input type="checkbox" name="language" id="english">English</label></span>
+          <span><label for="bangla"><input type="checkbox" name="language" id="bangla"></label>Bangla</span>
+          <span><label for="hindi"><input type="checkbox" name="language" id="hindi"></label>Hindi</span>
+         </p>
+        </div>
+        <div class="footer">
+         <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
